@@ -8,9 +8,45 @@ video {
 	max-width: 1280px;
 }
 
-#pWrap {
+#capWrap {
 	margin: 25px;
 	line-height: 2;
+}
+
+/*///////////////////*/
+/*    highlights     */
+/*///////////////////*/
+
+.highlighted {
+/*	text-decoration: underline;*/
+	color: #874ef3;
+}
+
+span {
+	transition-duration: .25s;
+}
+
+p span:hover {
+	cursor: pointer;
+	background: rgba(210,210,210,.420);
+	color: #874ec3;
+
+}
+
+/*///////////////////*/
+/*    meJS styles    */
+/*///////////////////*/
+
+.mejs__time-current {
+	background-color: rgba(5,150,250,.8);
+}
+.mejs__timeloaded{
+	border: 0;
+	border-radius: 10px;
+}
+
+.mejs__controls:not([style*="display: none"]) {
+	background:none;
 }
 
 /*///////////////////*/
@@ -25,7 +61,7 @@ video {
 	#mainWrap {
 		padding: 25px;
 	}
-	#pWrap {
+	#capWrap {
 		margin: 25px 0;
 	}
 }
