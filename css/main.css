@@ -1,0 +1,57 @@
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: Roboto, sans-serif;
+}
+
+#mainWrap {
+	border: 1px solid blue;
+}
+
+/*#vidWrap {
+	width: 100%;
+	max-width: 1280px;;
+	border: 1px solid #333;
+	margin: 0 auto;
+}*/
+
+video {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#pWrap {
+	margin: 25px;
+	line-height: 2;
+}
+
+/*///////////////////*/
+/*   meJS Overrides  */
+/*///////////////////*/
+
+/*.mejs__container,
+.mejs__player,
+.mejs__video,
+.mejs__overlay,
+.mejs__mediaelement {
+    min-width: 100%;
+    margin: 0 auto;
+    }*/
+
+
+/*///////////////////*/
+/*     Media Q's     */
+/*///////////////////*/
+
+@media screen and (min-width:768px){
+	
+	body {
+		max-width: 80%;
+	}
+	#mainWrap {
+		padding: 25px;
+	}
+	#pWrap {
+		margin: 25px 0;
+	}
+}
