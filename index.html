@@ -8,7 +8,7 @@
     
     <script src="js/jquery.js"></script>
     <script src="js/mediaelement-and-player.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/highlight.js"></script>
   
     <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
   
@@ -18,15 +18,13 @@
   
   <body>
   		
-  	<!--<div id="mainWrap">-->
+  	<div id="mainWrap">
   	
-  		<!--<div id="vidWrap">-->
-	  		<video class="mejs__player">
-	  			<source src="video/video.mp4" type="video/mp4">
-	  			<source src="video/video.ogg" type="video/ogg">
-	  		</video>
-	  	<!--</div>-->
-  
+	  	<video class="mejs__player" style="max-width: 100%; max-height: 100%">
+	  	  <source type="video/mp4" src="video/video.mp4"/>
+	  	  <source type="video/ogg" src="video/video.ogg"/>
+	  	</video>
+  	
 	  	<div id="pWrap">
 	  		<p id="captions">
 			  	<span>
@@ -93,8 +91,8 @@
 			  		A few common residential modems are DSL or
 			  	</span>
 		  	</p>
-	<!--  	</div>
-  	</div>-->
+	  	</div>
+  	</div>
   
 
   </body>
