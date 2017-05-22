@@ -2,6 +2,8 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	font-family: Roboto, sans-serif;
+	background: #111;
+	color: rgba(255,255,255,0.25);	
 }
 
 video {
@@ -22,15 +24,18 @@ video {
 	color: #874ef3;
 }
 
-span {
+p span {
 	transition-duration: .25s;
+	padding: 0 2px;
 }
 
 p span:hover {
 	cursor: pointer;
-	background: rgba(210,210,210,.420);
-	color: #874ec3;
-
+	/*background: rgba(255,205,235,.35);
+	color: #874ec3;*/
+	background: #aaa;
+	color: rgba(255,255,255,1);
+	border-radius:2px;	
 }
 
 /*///////////////////*/

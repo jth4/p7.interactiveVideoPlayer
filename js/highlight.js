@@ -7,12 +7,12 @@ console.log("highlight go");
 
 //declare vars
 const vid = document.querySelector('video');
-const capWrap = document.getElementById('capWrap');
+const captionWrap = document.getElementById('capWrap');
 const captions = document.querySelectorAll('p span');
 
 //add click event listener on parent div & etarget spans for clicks; 
 // retrieve time data & set video currentTime
-capWrap.addEventListener('click', (e) => {
+captionWrap.addEventListener('click', (e) => {
 	if(e.target.tagName === 'SPAN') {
 		let time = e.target.getAttribute('data-start');
 		vid.currentTime = time;
